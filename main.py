@@ -31,9 +31,6 @@ time.sleep(1)
 
 choice_4 = input(" you realise how long this is going to take \n press B to keep digging ")
 
-if choice_4 == "b" or "B":
-  print("you keep digging it is taking ages \n but you are almost through the next day you get through the wall and you get in the vent kick through the door and jump onto the roof you take a minor fall on the way down but you run and finally escape \n YOU WIN   ")
-  exit()
 
 
 
