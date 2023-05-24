@@ -30,7 +30,7 @@ else:
 time.sleep(1)
 
 choice_4 = input(" you realise how long this is going to take \n press B to keep digging ")
-
+print('hdhsghfdgsjfdghsjfdh')
 
 
 
