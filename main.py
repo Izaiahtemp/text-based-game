@@ -1,5 +1,5 @@
 #adventure game
-import time 
+ import time 
 choice_1 = input(" you have been locked up in this prison for 2 years \n i think it's time to escape do you agree type start when you are ready ") 
 if choice_1 == "start" or "Start":
   print('you start gathering information to help you escape ')
@@ -29,9 +29,30 @@ else:
   
 time.sleep(1)
 
-choice_4 = input(" you realise how long this is going to take \n press B to keep digging ")
-print('hdhsghfdgsjfdghsjfdh')
+choice_4 = input(" you realise how long this is going to take you have an idea on how you can get this done faster \n press P if you want to pay someone to have another fight and steal another hammer and recruit someone to help you escape or press B to keep digging by yourself ")
 
+if choice_4 == "b" or "B":
+  print("you keep digging on your own it is taking ages but you are almost thrugh \n you have a poster that covers the hole when your not in the cell \n when you get back to your cell you continue digging and the gaurds come around for a random cell inspecton \n your poster doesn't fool the gaurds \n GAME OVER ")
+  exit()
+
+if choice_4 == "p" or "P": 
+  print('you listen around for anyone trying to escape ')
+  choice_5 = input('do you want to risk the plan and ask someone to join and help or carry on the plan \n press A to ask someone and press c to keep going on your own ')
+
+  if choice_5 == "c" or "C": 
+    print("you keep digging on your own it is taking ages but you are almost thrugh \n you have a poster that covers the hole when your not in the cell \n when you get back to your cell you continue digging and the gaurds come around for a random cell inspecton \n your poster doesn't fool the gaurds \n GAME OVER ")
+  exit() 
+
+  if choice_5 == "A" or "a": 
+    choice_6 = input('you ask John to help you \n dig together for two days and finally get through the wall \n do you choose press N to try now or press W to wait a few days and get more tools ')
+    if choice_6 == "W" or "w": 
+      print('you wait three days \n the gaurds do a cell inspection and find your hole and you go to a maximum security prison \n GAME OVER ')
+      exit() 
+
+
+if choice_6 == "N" "n"
+
+ print (' you and John sneak through the hole \n into the vents you crawl through till you reach the end you climb onto the roof \n you have to take a small fall out of the gate and you get out and run away you have escaped \n YOU WIN ')
 
 
     
