@@ -52,7 +52,7 @@ if choice_4 == "p" or "P":
 
 if choice_6 == "N" "n"
 
- print (' you and John sneak through the hole \n into the vents you crawl through till you reach the end you climb onto the roof \n you have to take a small fall out of the gate and you get out and run away you have escaped \n YOU WIN ')
+ print (' you and John sneak through the hole \n into the vents you crawl through till you reach the end you climb onto the roof \n you have to take a small fall out of the gate and you get out and run away you have escaped \n YOU WIN! ')
 
 
     
